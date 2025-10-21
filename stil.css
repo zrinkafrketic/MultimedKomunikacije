@@ -1,18 +1,19 @@
 body{
     background-color: rgb(199, 205, 250);
+    text-align: center;
+    
 }
 h1{
     color: rgb(111, 87, 159);
     font-family: 'Lacquer', sans-serif;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
 }
 p{
     color: rgb(111, 87, 159);
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: light;
-    text-align: center;
+
 
 }
