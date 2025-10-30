@@ -1,17 +1,51 @@
 body{
     background-color: rgb(199, 205, 250);
-    text-align: center;
+    line-height: 150%;
 }
 h1{
-    color: rgb(111, 87, 159);
-    font-family: 'Lacquer', sans-serif;
+    color: rgb(50, 29, 91);
+    font-family: 'Rubik Glitch', sans-serif;
     font-style: normal;
     font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
 }
 p{
     color: rgb(111, 87, 159);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Sedgwick Ave Display', sans-serif;
     font-style: normal;
     font-weight: light;
+    font-size: 20px;
+    text-align: center;
 
+}
+ul{
+    color: purple;
+    background-color: #c78af297;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    float: center;
+    margin: left;
+    font-weight: bold;
+    font-size: larger;
+    list-style-type: square;
+
+}
+ol{
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    list-style-type: decimal;
+    font-weight: bold;
+    font-size: larger;
+}
+li2{
+    display: inline;
+    list-style-type: decimal;
+    background-color:#c78af297;
+}
+span{
+    font-weight: bold;
+    font-style: unset;
+    color: darkorange;
 }
