@@ -10,6 +10,43 @@
 <body>
     <h1>Zrinka Frketić</h1>
     <p>Moje ime je <strong>Zrinka</strong>, a ovdje su neke zanimljivosti <em>(i nezanimljivosti)</em> o meni :)</p>
+    <p>No, prije toga ja bih vas pitala da mi kažete nešto o sebi...</p>
+    <form action="">
+        <fieldset>
+            <legend>Predstavi se...</legend>
+            <label for="ime">Zovem se: </label><input type="text" name="ime"><br>
+            <label for="prezime">Prezivam se:</label><input type="=text" name="prezime"><br>
+            <label for="rodendan">Rođena sam: </label><input type="date" name="rodendan"><br>
+            <label for="">Moj spol:</label><input type="radio" name="spol" id="Ž"><label for="spol">Ž</label>
+            <input type="radio" name="spol" id="M"><label for="M">M</label><br>
+            <input type="submit" value="predaj">
+        </fieldset>
+        <fieldset>
+            <legend>Još malo...</legend>
+            Hobi: <input type="text" name="hobi"><br>
+            Najdraža životinja: <input type="text" name="životinja" placeholder="mačka ili pas nije originalno"><br>
+            Najbolji oblik: <form action="">
+                <input list="oblici" name="oblici">
+                <datalist id="oblici">
+                <option value="trokut" name="oblici">
+                <option value="krug" name="oblici">
+                <option value="kvadrat" name="oblici">
+                <option value="pravokutnik" name="oblici">
+                </datalist>
+                <input type="submit" value="izvoliš"><br>
+            </form>
+             Najdraža CMYK boja: <form>
+            <select name="cmyk">
+                <option value="cyan">cyan</option>
+                <option value="magenta">magenta</option>
+                <option value="yellow">yellow</option>
+                <option value="black">black</option>
+            </select>
+        </form>
+        <form action="">
+                <input type="button" value="Dosta mi je želim van" onclick="alert('sori ne još')">
+            </form>
+        </fieldset>
     <p>Rođena sam i živim u Zagrebu <sub>(kojeg jako volim)</sub> i studiram na Grafičkom fakultetu <sup>(kojeg isto volim).</sup></p>
     <p>U slobodno vrijeme se bavim:
         <ol>
@@ -35,6 +72,10 @@
         <li2>Barcelona</li2>
         <li2>Sarajevo</li2>
     </ol>
-    <p>Zanimljivo je što sam u svakom od tih gradova bila s najboljim prijateljima, pa ne znam jesu li gradovi ili moji prijatelji super </p>
+    <p>Zanimljivo je što sam u svakom od tih gradova bila s najboljim prijateljima, pa ne znam jesu li gradovi ili samo moji prijatelji super ;) </p>
+    <form action="">
+        Ovdje upiši najdraži grad koji si ti posjetio : <input type="text" name="Ovdje"<br>
+        <input type="submit" value="klikni me">
+    </form>
 </body>
 </html>

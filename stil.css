@@ -49,3 +49,38 @@ span{
     font-style: unset;
     color: darkorange;
 }
+form{
+    color: rgb(111, 87, 159);
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-style: normal;
+    font-weight: light;
+    font-size: 20px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color:rgb(50, 29, 91);
+    color: azure;
+}
+fieldset{
+    background-color: coral;
+    width: 500px;
+    box-align: center;
+    border: 3px#c78af297;
+    line-height: 150%;
+     margin:auto;
+}
+legend{
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+input[type=button]{
+    color: brown;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Rubik Glitch', sans-serif;
+    background-color: crimson;
+}
+input[type=button]:hover{
+    color: darkred;
+}
